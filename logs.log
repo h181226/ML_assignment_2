@@ -1,0 +1,4 @@
+2021-11-11 16:41:30,974:INFO:Initializing load_model()
+2021-11-11 16:41:30,974:INFO:load_model(model_name=/model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:41:31,672:INFO:Initializing load_model()
+2021-11-11 16:41:31,672:INFO:load_model(model_name=/model/box_office_model, platform=None, authentication=None, verbose=True)

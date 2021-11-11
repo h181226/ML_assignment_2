@@ -1,0 +1,96 @@
+2021-11-11 16:25:18,474:INFO:Initializing load_model()
+2021-11-11 16:25:18,477:INFO:load_model(model_name=box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:25:35,240:INFO:Initializing load_model()
+2021-11-11 16:25:35,241:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:26:18,157:INFO:Initializing load_model()
+2021-11-11 16:26:18,159:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:26:40,599:INFO:Initializing load_model()
+2021-11-11 16:26:40,601:INFO:load_model(model_name=box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:26:46,471:INFO:Initializing load_model()
+2021-11-11 16:26:46,474:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:31:09,846:INFO:Initializing load_model()
+2021-11-11 16:31:09,846:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:31:23,792:INFO:Initializing load_model()
+2021-11-11 16:31:23,793:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:31:28,065:INFO:Initializing load_model()
+2021-11-11 16:31:28,067:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:31:32,253:INFO:Initializing load_model()
+2021-11-11 16:31:32,254:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:31:34,006:INFO:Initializing load_model()
+2021-11-11 16:31:34,007:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:31:35,483:INFO:Initializing predict_model()
+2021-11-11 16:31:35,484:INFO:predict_model(estimator=RandomForestRegressor(n_estimators=1000, random_state=42), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-11 16:31:35,487:INFO:Checking exceptions
+2021-11-11 16:31:35,491:INFO:Preloading libraries
+2021-11-11 16:31:35,493:ERROR:Pipeline not found. Exception:
+2021-11-11 16:31:35,505:ERROR:Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 8639, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-11-11 16:34:37,745:INFO:Initializing load_model()
+2021-11-11 16:34:37,747:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:35:32,652:INFO:Initializing load_model()
+2021-11-11 16:35:32,653:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:35:34,433:INFO:Initializing load_model()
+2021-11-11 16:35:34,434:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:35:42,985:INFO:Initializing load_model()
+2021-11-11 16:35:42,986:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:36:16,758:INFO:Initializing load_model()
+2021-11-11 16:36:16,759:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:36:27,910:INFO:Initializing load_model()
+2021-11-11 16:36:27,911:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:36:29,874:INFO:Initializing load_model()
+2021-11-11 16:36:29,876:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:36:31,519:INFO:Initializing predict_model()
+2021-11-11 16:36:31,520:INFO:predict_model(estimator=RandomForestRegressor(n_estimators=1000, random_state=42), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-11 16:36:31,523:INFO:Checking exceptions
+2021-11-11 16:36:31,525:INFO:Preloading libraries
+2021-11-11 16:36:31,526:ERROR:Pipeline not found. Exception:
+2021-11-11 16:36:31,538:ERROR:Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 8639, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
+2021-11-11 16:39:25,871:INFO:Initializing load_model()
+2021-11-11 16:39:25,875:INFO:load_model(model_name=/model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:39:36,483:INFO:Initializing load_model()
+2021-11-11 16:39:36,487:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:40:10,812:INFO:Initializing load_model()
+2021-11-11 16:40:10,818:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:40:22,480:INFO:Initializing load_model()
+2021-11-11 16:40:22,483:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:42:15,334:INFO:Initializing load_model()
+2021-11-11 16:42:15,335:INFO:load_model(model_name=/model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:42:15,746:INFO:Initializing load_model()
+2021-11-11 16:42:15,747:INFO:load_model(model_name=/model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:42:33,262:INFO:Initializing load_model()
+2021-11-11 16:42:33,264:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:43:10,799:INFO:Initializing load_model()
+2021-11-11 16:43:10,800:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:43:46,137:INFO:Initializing load_model()
+2021-11-11 16:43:46,137:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:21,840:INFO:Initializing load_model()
+2021-11-11 16:44:21,842:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:23,286:INFO:Initializing load_model()
+2021-11-11 16:44:23,286:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:31,898:INFO:Initializing load_model()
+2021-11-11 16:44:31,901:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:36,934:INFO:Initializing load_model()
+2021-11-11 16:44:36,935:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:41,187:INFO:Initializing load_model()
+2021-11-11 16:44:41,188:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:45,826:INFO:Initializing load_model()
+2021-11-11 16:44:45,827:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:47,046:INFO:Initializing load_model()
+2021-11-11 16:44:47,047:INFO:load_model(model_name=../model/box_office_model, platform=None, authentication=None, verbose=True)
+2021-11-11 16:44:47,978:INFO:Initializing predict_model()
+2021-11-11 16:44:47,979:INFO:predict_model(estimator=RandomForestRegressor(n_estimators=1000, random_state=42), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-11-11 16:44:47,984:INFO:Checking exceptions
+2021-11-11 16:44:47,985:INFO:Preloading libraries
+2021-11-11 16:44:47,986:ERROR:Pipeline not found. Exception:
+2021-11-11 16:44:47,993:ERROR:Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 8639, in predict_model
+    dtypes = prep_pipe.named_steps["dtypes"]
+NameError: name 'prep_pipe' is not defined
+
