@@ -15,6 +15,12 @@ from PIL import Image
 import os
 import pickle
 
+
+# ## Streamlit
+
+# In[26]:
+
+
 model = pickle.load(open('../model/box_office_model.pkl','rb'))
 
 def main():
@@ -54,5 +60,9 @@ def main():
             predictions = self.predict(input_df)
             st.write(predictions)
 
-if __name__ =='__main__':
-  main()
+
+# In[27]:
+
+
+get_ipython().system('jupyter nbconvert --to script streamlit_app.ipynb')
+
