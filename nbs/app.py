@@ -15,11 +15,11 @@ import os
 import pickle
 
 #Open model created by the notebook
-model = pickle.load(open('../model/box_office_model.pkl','rb'))
+model = pickle.load(open('model/box_office_model.pkl','rb'))
 
 #create main page
 def main():
-    image = Image.open('../assets/Box_Office.jfif')
+    image = Image.open('assets/Box_Office.jfif')
     st.image(image, use_column_width=False)
 
 
