@@ -3,7 +3,7 @@
 
 # ## Imports
 
-# In[25]:
+# In[4]:
 
 
 from pycaret.regression import *
@@ -18,10 +18,11 @@ import pickle
 
 # ## Streamlit
 
-# In[26]:
+# In[5]:
 
 
 model = pickle.load(open('../model/box_office_model.pkl','rb'))
+print(model)
 
 def main():
     image = Image.open('../assets/Box_Office.jfif')
@@ -40,16 +41,13 @@ def main():
         runtime = st.number_input('runtime', min_value=0, max_value=500, value=0)
         
         inputs = [[budget,runtime,popularity]]
-        inputs_scaled = StandardScaler().fit_transform(inputs)
+        #inputs_scaled = StandardScaler().fit_transform(inputs)
 
         if st.button('Predict'): 
-            result = model.predict(inputs_scaled)
-            print('model: ', model)
+            result = model.predict(inputs)
             print('result: ',result)
             result = result.flatten().astype(float)
-            #output = output['Label'][0]
-            #output = str(output['Label'])
-            st.success('Predicted output: '.format(result))
+            st.success('Predicted output: {}'.format(result))
             
         
         
@@ -59,10 +57,5 @@ def main():
             input_df = pd.read_csv(fn)
             predictions = self.predict(input_df)
             st.write(predictions)
-
-
-# In[27]:
-
-
-get_ipython().system('jupyter nbconvert --to script streamlit_app.ipynb')
-
+if __name__ =='__main__':
+  main()
