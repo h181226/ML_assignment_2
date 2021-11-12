@@ -6,7 +6,6 @@
 # In[7]:
 
 
-from pycaret.regression import *
 import pandas as pd 
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -24,7 +23,7 @@ def main():
     st.image(image, use_column_width=False)
 
 
-    add_selectbox = st.sidebar.selectbox('How would you like to predict?', ('Online', 'Batch')) #bruke batch for aa predikere paa alle bildene. 
+    add_selectbox = st.sidebar.selectbox('How would you like to predict?', ('Online', 'test'))
     st.sidebar.info('This app is created to predict revenue for movies' )
     st.sidebar.success('DAT158')
     st.title('Box Office Predictions')
@@ -46,12 +45,6 @@ def main():
             
         
         
-    if add_selectbox == 'Batch': 
-        fn = st.file_uploader("Upload csv file for predictions") #st.file_uploader('Upload csv file for predictions, type=["csv"]')
-        if fn is not None: 
-            input_df = pd.read_csv(fn)
-            predictions = self.predict(input_df)
-            st.write(predictions)
 
 #Start application
 if __name__ =='__main__':
