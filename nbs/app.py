@@ -39,9 +39,9 @@ def main():
         inputs_scaled = StandardScaler().fit_transform(inputs)
 
         if st.button('Predict'): 
-            result = model.predict(inputs_scaled)
-            format_result = "{:.2f}".format(float(result))
-            print(format_result)
+            result = model.predict(inputs)
+            #format_result = "{:.2f}".format(float(result))
+            print(result)
             st.success('Predicted output: €{:,.2f}'.format(float(result)))
             
         
